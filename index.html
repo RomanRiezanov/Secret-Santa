@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secret Santa</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/reset.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+    <main class="main" id="main">
+        <img src="media/secret-santa.png" alt="secret-santa" class="secret-santa-img">
+        <h1 class="h1">Выбери себя:</h1>
+        <div class="wrap">
+            <div class="radios">
+                <input name="radio" type="radio" id="radio0" class="radio" checked="">
+                <label for="radio0" class="radio-label">
+                <i class="fa fa-check"></i>
+                <span>Ирина</span>
+                </label>
+                <input name="radio" type="radio" id="radio1" class="radio">
+                <label for="radio1" class="radio-label">
+                <i class="fa fa-check"></i>
+                <span>Яна</span>
+                </label>
+                <input name="radio" type="radio" id="radio2" class="radio">
+                <label for="radio2" class="radio-label">
+                <i class="fa fa-check"></i>
+                <span>Виктория</span>
+                </label>
+                <input name="radio" type="radio" id="radio3" class="radio">
+                <label for="radio3" class="radio-label">
+                <i class="fa fa-check"></i>
+                <span>Артур</span>
+                </label>
+                <input name="radio" type="radio" id="radio4" class="radio">
+                <label for="radio4" class="radio-label">
+                <i class="fa fa-check"></i>
+                <span>Роман</span>
+                </label>
+                <input name="radio" type="radio" id="radio5" class="radio">
+                <label for="radio5" class="radio-label">
+                <i class="fa fa-check"></i>
+                <span>Олег</span>
+                </label>
+            </div>
+            <input type="button" id="button">
+            <label for="button" class="radio-label" id="button-label">
+            <span>Рассчитать</span>
+            </label>
+            <div id="resultSanta-block">
+                <p class="resultSanta-text" id="resultSanta-text"><span id="nameOfResult"></span></span></p>
+                <img src="media/img-santa.webp" alt="Santa" class="santa-img">
+            </div>
+        </div>
+    </main>
+    <script src="resources/js/main.js"></script>
+</body>
+</html>
